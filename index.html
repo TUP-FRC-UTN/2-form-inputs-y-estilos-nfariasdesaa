@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="=UTF-8">
+    <title>Clase 2 - Programacion 3</title>
+</head>
+
+<body>
+    <form action="/">
+        Nombre: <br>
+        <input type="text" placeholder="Escribir nombre" name="nombre"> <br>
+        Apellido: <br>
+        <input type="text" placeholder="Ingrese el apellido" name="apellido"><br>
+        Seleccione Género: <br>
+        <input type="radio" name="genero" id="genero" value="1"> Masculino <br>
+        <input type="radio" name="genero" id="genero" value="2"> Femenino <br>
+        <input type="radio" name="genero" id="genero" value="3" checked> Prefiere no contestar <br>
+        <br>
+        Intereses: <br>
+        <input type="checkbox" name="intereses" id="intereses"> Deportes <br>
+        <input type="checkbox" name="intereses" id="intereses"> Películas <br>
+        <input type="checkbox" name="intereses" id="intereses"> Series <br>
+        <br>
+        Fecha de Nacimiento <br>
+        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" min="2022-03-23" max="2022-03-29"><br>
+        <br>
+
+        Seleccionar Provincia: <br>
+        <select name="provincia" id="provincia">
+            <option value="">Seleccione...</option>
+            <option value="1">Córdoba</option>
+            <option value="2">Buenos Aires</option>
+        </select> <br>
+        <br>
+
+        Ingrese su comentario: <br>
+        <textarea style="resize:none" name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese su comentario . . ."></textarea>
+        <br>
+        <br>
+
+        <button>Confirmar</button>
+    </form>
+</body>
+
+</html>
